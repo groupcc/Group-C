@@ -1,4 +1,6 @@
+const {render} = require("ejs");
 const express =require('express');
+
 
 const app = express();
 const PORT = 9000;
@@ -9,7 +11,7 @@ app.use('/static', express.static(__dirname + '/static'));
 
 
 app.get('/', function (request, response) {
-    response.send('Hello Team C')
+    response.render('worldcontinents')
 })
 
 app.listen(PORT, function() {
