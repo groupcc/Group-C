@@ -9,7 +9,6 @@
 @media (min-width: 768px) {
   .country_short {
     font-size: 1rem;
-  }
 }
 
 .b-example-divider {
@@ -64,7 +63,8 @@
 .Logo {
   display: flex;
   position: auto;
-
   width: 180px;
   height: 80px;
+}
+
 }
