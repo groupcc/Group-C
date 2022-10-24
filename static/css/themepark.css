@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'twayair';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'twayair';
+}
+
+.dropdown {
+  height: 200px;
+}
+
+ul {
+  list-style: none;
+}
+
+.mainBtn {
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+}
+
+#country {
+  /* display: inline-block; */
+  font-size: 30px;
+}
+
+.listAmerica {
+  display: none;
+}
+
+.listAsia {
+  display: none;
+}
+
+.themeparkUSA {
+  display: none;
+}
+.themeparkBrazil {
+  display: none;
+}
+.themeparkVietnam {
+  display: none;
+}
+.themeparkJapan {
+  display: none;
+}
+.themeparkChina {
+  display: none;
+}
+.themeparkKorea {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
