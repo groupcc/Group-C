@@ -7,32 +7,47 @@
     <title>navigation</title>
     <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="./navigation.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 
-    <header class="deactive">
+    <header class=" header">
         <img src="../LOGO.png" alt="LOGO">
-        <nav>
+        <a href="#" class="icon-menu"><i class="bi bi-list"></i></a>
+        <nav class="menu_bar">
             <ul>
-                <li> <a href= "#" ><button class="menu">MBTI</button> </a></li>
-                <li> <a href="#" ><button class="menu">FESTIVAL </button> </a></li>
+                <li> <a href= "#" ><button class="menu">국내여행</button> </a></li>
+                <li> <a href="#" ><button class="menu">테마파크 </button> </a></li>
+                <li> <a href="#"><button class="menu">축제</button></a></li>
+                <li> <a href="#"><button class="menu">MBTI</button></a></li>
+                <li> <a href="#"><button class="menu">설명</button></a></li>
             </ul>
         </nav>
-        <div class="box">
-            <div class="container-1">
-                <span class="icon"><i class="fa fa-search"></i></span>
-                <input type="search" id="search" placeholder=" 여행지 검색" />
-            </div>
-        </div>
     </header>
+        <nav class="toggle_menu_bar d-none">
+            <ul class="toggle-menu-container">
+                <li> <a href= "#"  class="toggl_menu">국내여행 </a></li>
+                <li> <a href="#" class="toggl_menu">테마파크  </a></li>
+                <li> <a href="#" class="toggl_menu">축제</a></li>
+                <li> <a href="#" class="toggl_menu">MBTI</a></li>
+                <li> <a href="#" class="toggl_menu">설명</a></li>
+            </ul>
+        </nav>
+
                 
 
-    <section>
-   
-    </section>
-
+    <script>
+        const iconMenu = document.querySelector('.icon-menu');
+        const toggleMenu = document.querySelector('.toggle_menu_bar');
+  
+        iconMenu.addEventListener('click', function () {
+          toggleMenu.classList.toggle('d-none');
+        });
+    </script>
     
     
 </body>
