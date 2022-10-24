@@ -40,8 +40,11 @@ let t3= document.querySelector('.t3');
 let t4= document.querySelector('.t4');
 let t5= document.querySelector('.t5');
 let t6= document.querySelector('.t6');
+<<<<<<< HEAD
+=======
 let card1=document.querySelector('.card1');
 
+>>>>>>> main
 
 
 
@@ -51,6 +54,8 @@ let card1=document.querySelector('.card1');
 
 w1.addEventListener('click', function() {
     console.log(1);
+<<<<<<< HEAD
+=======
     div1.style.display='block';
     div2.style.display='block';
     div3.style.display='block';
@@ -58,6 +63,7 @@ w1.addEventListener('click', function() {
 
 
 
+>>>>>>> main
     div1.style.opacity='1';
     div1.style.transition='4s';
 
@@ -94,6 +100,19 @@ w1.addEventListener('click', function() {
 
 w2.addEventListener('click', function() {
     console.log(1);
+<<<<<<< HEAD
+    div13.style.opacity='1';
+    div13.style.transition='4s';
+
+    div14.style.opacity='1';
+    div14.style.transition='4s';
+
+    div15.style.opacity='1';
+    div15.style.transition='4s';
+
+    div16.style.opacity='1';
+    div16.style.transition='4s';
+=======
 
 
     
@@ -110,6 +129,7 @@ w2.addEventListener('click', function() {
     div16.style.animation='fadeIn 4s 2s';
     
 
+>>>>>>> main
 
 
 
@@ -133,14 +153,24 @@ w2.addEventListener('click', function() {
     p.style.display='none';
     p.style.transition='1.5s';
 
+<<<<<<< HEAD
+    map.addEventListener('click', function(){
+        $('.w2').fadeout();
+    })
+=======
     // map.addEventListener('click', function(){
     //     $('.w2').fadeout();
     // })
+>>>>>>> main
     
 
 });
 
 
+<<<<<<< HEAD
+function world3() {
+    console.log(1);
+=======
 w3.addEventListener('click', function () {
     console.log(1);
 
@@ -150,6 +180,7 @@ w3.addEventListener('click', function () {
     div19.style.display='block';
     div20.style.display='block';
 
+>>>>>>> main
     div17.style.opacity='1';
     div17.style.transition='4s';
 
@@ -181,6 +212,12 @@ w3.addEventListener('click', function () {
 
     p.style.display='none';
     p.style.transition='1.5s';
+<<<<<<< HEAD
+}
+
+w3.addEventListener('click', world3);
+
+=======
 });
 
 document.body.addEventListener('click', function (e) {
@@ -268,11 +305,14 @@ document.body.addEventListener('click', function (e) {
     }
 
 })
+>>>>>>> main
 
 
 
 w4.addEventListener('click', function() {
     console.log(1);
+<<<<<<< HEAD
+=======
 
     div5.style.display='block';
     div6.style.display='block';
@@ -280,6 +320,7 @@ w4.addEventListener('click', function() {
     div8.style.display='block';
 
 
+>>>>>>> main
     div5.style.opacity='1';
     div5.style.transition='4s';
 
@@ -318,12 +359,15 @@ w4.addEventListener('click', function() {
 
 w5.addEventListener('click', function() {
     console.log(1);
+<<<<<<< HEAD
+=======
 
     div9.style.display='block';
     div10.style.display='block';
     
 
 
+>>>>>>> main
     div9.style.opacity='1';
     div9.style.transition='4s';
 
@@ -357,10 +401,13 @@ w5.addEventListener('click', function() {
 
 w6.addEventListener('click', function() {
     console.log(1);
+<<<<<<< HEAD
+=======
 
     div11.style.display='block';
     div12.style.display='block';
 
+>>>>>>> main
     div11.style.opacity='1';
     div11.style.transition='4s';
 
@@ -394,11 +441,20 @@ w6.addEventListener('click', function() {
 
 
 
+<<<<<<< HEAD
+world3.addEventListener('click',function(){
+    // console.log('map click ');
+    map.addEventListener('click',function(){
+        $(w3).fadeout(300);
+    });
+});
+=======
 // world3.addEventListener('click',function(){
 //     map.addEventListener('click',function(){
 
 //     });
 // });
+>>>>>>> main
 
 
 

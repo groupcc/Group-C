@@ -1,7 +1,6 @@
 
-const { render } = require("ejs");
-const express = require("express");
-
+const {render} = require('ejs');
+const express =require('express');
 
 const app = express();
 const PORT = 9000;

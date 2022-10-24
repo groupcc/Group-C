@@ -6,19 +6,35 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> main
 }
 
 
 .map{
     position: absolute;
+<<<<<<< HEAD
+    width: 80%; 
+    height: 80%;
+    /* margin: 10%; */
+/* 
+    background-color: blue; */
+=======
 
+>>>>>>> main
 }
 
 p {
     position: absolute; 
     left: 600px;
+<<<<<<< HEAD
+    top: 350px;
+=======
     top: 750px;
+>>>>>>> main
     font-family: 'twayair';
     font-size: 18px;
 }
@@ -474,6 +490,10 @@ p {
 
 
 #f2 {
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
     position: absolute;
     top: 270px;
     left: 200px;
@@ -725,6 +745,8 @@ p {
     }
 }
 
+<<<<<<< HEAD
+=======
 @keyframes fadeIn{
     from{
         opacity: 0;
@@ -735,6 +757,7 @@ p {
     }
 }
 
+>>>>>>> main
 
 
 
