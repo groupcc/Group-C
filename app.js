@@ -11,9 +11,9 @@ app.use("/static", express.static(__dirname + "/static"));
 
 
 app.get('/', function (request, response) {
-    response.render('worldcontinents')
-})
+    response.render('universal');
+});
 
 app.listen(PORT, function() {
-    console.log(`Listening on port ${PORT}`)
+    console.log(`Listening on port ${PORT}`);
 });
