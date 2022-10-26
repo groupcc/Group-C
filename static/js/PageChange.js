@@ -69,3 +69,8 @@ function cuba() {
 function mexico() {
   window.open("/mexico", (target = "_self"), "fullscreen");
 }
+
+function worldcontinents() {
+  window.open("/worldcontinents", (target = "_self"), "fullscreen");
+  // location.href = '/worldcontinents';
+}
