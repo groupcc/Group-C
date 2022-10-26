@@ -9,7 +9,7 @@ app.use("/views", express.static(__dirname + "/views"));
 app.use("/static", express.static(__dirname + "/static"));
 
 app.get("/", function (request, response) {
-  response.render("navigation");
+  response.render("main6");
 });
 
 app.get("/china", function (request, response) {
@@ -105,6 +105,15 @@ app.get("/worldcontinents", function (request, response) {
   app.get("/universal", function (request, response) {
     response.render("universal");
   });
+
+  app.get("/description", function (request, response) {
+    response.render("description");
+  });
+
+  app.get("/korea", function (request, response) {
+    response.render("korea");
+  });
+
 
 app.listen(PORT, function () {
   console.log(`Listening on port ${PORT}`);
