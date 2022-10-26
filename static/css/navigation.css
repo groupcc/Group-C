@@ -1,7 +1,9 @@
 @font-face {
+
   font-family: "twayair";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff")
     format("woff");
+
   font-weight: normal;
   font-style: normal;
 }
@@ -9,6 +11,7 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
+
 .menu {
   color: #bee0ff;
   cursor: pointer;
@@ -102,6 +105,7 @@ a {
 .menu_bar {
   display: none;
 
+
   position: relative;
 
   margin-top: 0.7rem;
@@ -124,3 +128,4 @@ a {
     display: none;
   }
 }
+

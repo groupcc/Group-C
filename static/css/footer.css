@@ -7,6 +7,7 @@
 }
 
 @media (min-width: 768px) {
+
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
@@ -51,6 +52,7 @@
 }
 
 .FooterContainer {
+
   /* display: flex; 
   position: absolute;*/
   bottom: 0px; 
@@ -67,3 +69,4 @@
   width: 180px;
   height: 80px;
 }
+
