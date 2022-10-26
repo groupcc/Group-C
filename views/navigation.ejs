@@ -1,16 +1,17 @@
 <div>
-
+    <script src="/static/js/PageChange.js"></script>
+    <link rel="stylesheet" href="/static/css/navigation.css">
     <header class=" header">
         <img src="/static/img/LOGO.png" alt="LOGO">
 
         <a href="#" class="icon-menu"><i class="bi bi-list"></i></a>
         <nav class="menu_bar">
             <ul>
-                <li> <a href= "#" ><button class="menu">국내여행</button> </a></li>
-                <li> <a href="#" ><button class="menu">테마파크 </button> </a></li>
-                <li> <a href="#"><button class="menu">축제</button></a></li>
-                <li> <a href="#"><button class="menu">MBTI</button></a></li>
-                <li> <a href="#"><button class="menu">설명</button></a></li>
+                <li> <button class="menu">국내여행</button> </li>
+                <li> <div onclick="universal();"><button class="menu">테마파크 </button> </div></li>
+                <li> <div onclick="festival();"><button class="menu">축제</button></div></li>
+                <li> <div onclick="mbti();"><button class="menu">MBTI</button></div></li>
+                <li> <button class="menu">설명</button></li>
             </ul>
         </nav>
     </header>
@@ -31,10 +32,12 @@
     <script>
         const iconMenu = document.querySelector('.icon-menu');
         const toggleMenu = document.querySelector('.toggle_menu_bar');
-  
         iconMenu.addEventListener('click', function () {
           toggleMenu.classList.toggle('d-none');
         });
     </script>
+
+
+    
 
 </div>
