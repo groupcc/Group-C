@@ -82,6 +82,14 @@ function festival() {
   window.open("/festival", (target = "_self"), "fullscreen");
 }
 
+function description() {
+  window.open("/description", (target = "_self"), "fullscreen");
+}
+
+function korea() {
+  window.open("/korea", (target = "_self"), "fullscreen");
+}
+
 function worldcontinents() {
   window.open("/worldcontinents", (target = "_self"), "fullscreen");
   // location.href = '/worldcontinents';

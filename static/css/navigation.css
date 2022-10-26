@@ -58,7 +58,8 @@ header {
 .icon-menu {
   font-size: 32px;
   display: flex;
-  color: #bee0ff;
+  color: #bee0ff
+  ;
   padding: 10px 1rem;
 }
 
@@ -94,6 +95,7 @@ ul {
   text-align: center;
   padding: 15px;
   margin: 0;
+  cursor: pointer;
 }
 
 a {
