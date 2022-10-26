@@ -15,19 +15,21 @@ body {
 .menu {
   color: #bee0ff;
   cursor: pointer;
-  padding: 0px 40px;
+  /* padding: 0px 40px; */
   display: inline-block;
-  margin: 0 25px;
+  margin: 0 15px;
   text-transform: uppercase;
   font-weight: 50px;
   line-height: 2.4em;
-  letter-spacing: 1.5px;
+  /* letter-spacing: 1.5px; */
   outline: none;
   position: relative;
   border: 3px solid #bee0ff;
   border-radius: 10px;
   background-color: transparent;
   transition: all 0.3s;
+
+  width: 100px;
 }
 .toggle_menu {
   display: block;
