@@ -207,6 +207,17 @@
     color: white;
     font-weight: bold;
   }
+
+  .disappear {
+    display: none;
+  }
+
+  .logo_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .font_style {
