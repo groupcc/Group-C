@@ -1,21 +1,21 @@
 @font-face {
-  font-family: 'twayair';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+  font-family: "twayair";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: 'twayair';
+  font-family: "twayair";
 }
 
 .dropdown {
-  position: absolute;
-  top: 8em;
   width: 80%;
-  left: 10vw;
   border-radius: 3rem;
-  height: 24rem;
+  margin-top: 2rem;
+  height: 6rem;
+  opacity: 80%;
   /* background-color: white; */
   z-index: 2;
 }
@@ -109,11 +109,11 @@ ul {
 }
 
 .dropdown_menu-6 {
-    animation: growDown 300ms ease-in-out forwards;
-    transform-origin: top center;
-    width: 100%;
-    height: 48vh;
-    background-color: white;
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin: top center;
+  width: 100%;
+  height: 40vh;
+  background-color: white;
 }
 
 .themeparkUSA {
@@ -240,7 +240,7 @@ ul {
   text-decoration: underline;
 }
 
-@keyframes dropdown{
+@keyframes dropdown {
   0% {
     transform: translateY(0);
   }
@@ -251,27 +251,24 @@ ul {
 
 @keyframes growDown {
   0% {
-      transform: scaleY(0)
+    transform: scaleY(0);
   }
   80% {
-      transform: scaleY(1.1)
+    transform: scaleY(1.1);
   }
   100% {
-      transform: scaleY(1)
+    transform: scaleY(1);
   }
 }
 
-
 @media all and (max-width: 320px) {
-  
 }
 @media all and (min-width: 321px) and (max-width: 768px) {
-  
+  .dropdown_menu-6 {
+    height: 20vh;
+  }
 }
 @media all and (min-width: 769px) and (max-width: 1024px) {
-  
 }
 @media all and (min-width: 1025px) {
-  
 }
-
