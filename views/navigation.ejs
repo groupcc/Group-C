@@ -1,0 +1,37 @@
+<div>
+
+    <header class=" header">
+        <img src="../static/img/LOGO.png" alt="LOGO">
+        <a href="#" class="icon-menu"><i class="bi bi-list"></i></a>
+        <nav class="menu_bar">
+            <ul>
+                <li> <a href= "#" ><button class="menu">국내여행</button> </a></li>
+                <li> <a href="#" ><button class="menu">테마파크 </button> </a></li>
+                <li> <a href="#"><button class="menu">축제</button></a></li>
+                <li> <a href="#"><button class="menu">MBTI</button></a></li>
+                <li> <a href="#"><button class="menu">설명</button></a></li>
+            </ul>
+        </nav>
+    </header>
+        <nav class="toggle_menu_bar d-none">
+            <ul class="toggle-menu-container">
+                <li> <a href= "#"  class="toggl_menu">국내여행 </a></li>
+                <li> <a href="#" class="toggl_menu">테마파크  </a></li>
+                <li> <a href="#" class="toggl_menu">축제</a></li>
+                <li> <a href="#" class="toggl_menu">MBTI</a></li>
+                <li> <a href="#" class="toggl_menu">설명</a></li>
+            </ul>
+        </nav>
+
+                
+
+    <script>
+        const iconMenu = document.querySelector('.icon-menu');
+        const toggleMenu = document.querySelector('.toggle_menu_bar');
+  
+        iconMenu.addEventListener('click', function () {
+          toggleMenu.classList.toggle('d-none');
+        });
+    </script>
+    
+</div>
