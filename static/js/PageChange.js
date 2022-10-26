@@ -70,6 +70,18 @@ function mexico() {
   window.open("/mexico", (target = "_self"), "fullscreen");
 }
 
+function mbti() {
+  window.open("/mbti", (target = "_self"), "fullscreen");
+}
+
+function universal() {
+  window.open("/universal", (target = "_self"), "fullscreen");
+}
+
+function festival() {
+  window.open("/festival", (target = "_self"), "fullscreen");
+}
+
 function worldcontinents() {
   window.open("/worldcontinents", (target = "_self"), "fullscreen");
   // location.href = '/worldcontinents';
