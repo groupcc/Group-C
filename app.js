@@ -9,7 +9,7 @@ app.use("/views", express.static(__dirname + "/views"));
 app.use("/static", express.static(__dirname + "/static"));
 
 app.get("/", function (request, response) {
-  response.render("main6");
+  response.render("mein6");
 });
 
 app.get("/china", function (request, response) {
@@ -91,8 +91,8 @@ app.get("/mexico", function (request, response) {
 });
 
 app.get("/worldcontinents", function (request, response) {
-    response.render("worldcontinents");
-  });
+  response.render("worldcontinents");
+});
 
 app.listen(PORT, function () {
   console.log(`Listening on port ${PORT}`);
