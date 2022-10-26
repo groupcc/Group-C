@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="./">
+    
+    <title>mbti 별 추천 여행지</title>
+
+    <!-- css 링크 -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/welcome.css">
+    <link rel="stylesheet" href="./css/question.css">
+    <link rel="stylesheet" href="./css/result.css">
+    <link rel="stylesheet" href="./css/darkmode.css">
+    <link rel="stylesheet" href="./css/animation.css">
+
+    <!-- icon 링크 -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M234.5 5.7c13.9-5 29.1-5 43.1 0l192 68.6C495 83.4 512 107.5 512 134.6V377.4c0 27-17 51.2-42.5 60.3l-192 68.6c-13.9 5-29.1 5-43.1 0l-192-68.6C17 428.6 0 404.5 0 377.4V134.6c0-27 17-51.2 42.5-60.3l192-68.6zM256 66L82.3 128 256 190l173.7-62L256 66zm32 368.6l160-57.1v-188L288 246.6v188z"/></svg>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+          <button class="logo head" onclick=javascript:switchMode()></button>
+        </header>
+        <section id="welcome" class="container">
+          <div id="title-box">
+            <h1 class="title">
+              나에게 맞는 <br>
+              여행지 추천!
+            </h1>
+            <br><br><br>
+            <span class="time-logo"></span>
+            <div>소요 시간 : 3분 내외</div>
+          </div>
+          <br><br>
+          <div id="name-input">
+            <input type="text" placeholder="이름을 입력해주세요" autofocus>
+          </div>
+          <p class="check-name warning"></p>
+          <div class="start-wrap">
+            <button class="start">START</button>
+          </div>
+        </section>
+    
+
+    <section id="qna" class="container">
+        <div class="status-bar">
+        <div class="status"></div>
+        </div>
+        <div class="q box"></div>
+        <div class="answer"></div>
+    </section>
+
+    <section id="result" class="container">
+    <div class="end"></div>
+    <p> 당신의 추천 여행지는</p>
+    <hr>
+    <div class="mbti"></div>
+    </section>
+
+
+</body>
+</html>
