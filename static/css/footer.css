@@ -7,14 +7,10 @@
 }
 
 @media (min-width: 768px) {
-<<<<<<< HEAD
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
-=======
+
   .country_short {
     font-size: 1rem;
->>>>>>> main
+
 }
 
 .b-example-divider {
@@ -57,11 +53,7 @@
 
 .FooterContainer {
   display: flex;
-<<<<<<< HEAD
-  position: absolute;
-=======
   position: static;
->>>>>>> main
   bottom: 0px;
   width: 100%;
 }
@@ -73,12 +65,8 @@
 .Logo {
   display: flex;
   position: auto;
-<<<<<<< HEAD
-}
-=======
   width: 180px;
   height: 80px;
 }
 
 }
->>>>>>> main
