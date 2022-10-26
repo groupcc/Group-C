@@ -51,9 +51,9 @@
 }
 
 .FooterContainer {
-  display: flex;
-  position: absolute;
-  bottom: 0px;
+  /* display: flex; 
+  position: absolute;*/
+  bottom: 0px; 
   width: 100%;
 }
 
