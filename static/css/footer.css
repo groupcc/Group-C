@@ -8,9 +8,9 @@
 
 @media (min-width: 768px) {
 
-  .country_short {
-    font-size: 1rem;
-
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
 
 .b-example-divider {
@@ -35,7 +35,7 @@
 
 .nav-scroller {
   position: relative;
-  z-index: 2;
+  z-index: 1;
   height: 2.75rem;
   overflow-y: hidden;
 }
@@ -52,9 +52,10 @@
 }
 
 .FooterContainer {
-  display: flex;
-  position: static;
-  bottom: 0px;
+
+  /* display: flex; 
+  position: absolute;*/
+  bottom: 0px; 
   width: 100%;
 }
 
@@ -69,4 +70,3 @@
   height: 80px;
 }
 
-}

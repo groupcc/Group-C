@@ -193,6 +193,10 @@
   body {
     overflow: auto;
     height: 1500px;
+
+    position: relative;
+    padding-bottom: 160px ;
+    min-height: 100vh;
   }
 
   .button {
@@ -206,6 +210,17 @@
 
     color: white;
     font-weight: bold;
+  }
+
+  .disappear {
+    display: none;
+  }
+
+  .logo_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 

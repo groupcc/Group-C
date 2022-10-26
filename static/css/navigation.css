@@ -1,6 +1,9 @@
 @font-face {
-  font-family: 'twayair';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+
+  font-family: "twayair";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff")
+    format("woff");
+
   font-weight: normal;
   font-style: normal;
 }
@@ -8,8 +11,9 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
-.menu{
-  color: #BEE0FF;
+
+.menu {
+  color: #bee0ff;
   cursor: pointer;
   padding: 0px 40px;
   display: inline-block;
@@ -20,7 +24,7 @@ body {
   letter-spacing: 1.5px;
   outline: none;
   position: relative;
-  border: 3px solid #BEE0FF;
+  border: 3px solid #bee0ff;
   border-radius: 10px;
   background-color: transparent;
   transition: all 0.3s;
@@ -42,20 +46,19 @@ nav {
 }
 
 header {
-    background-color: rgb(0, 0, 0);
-    opacity: 100%;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 ;
-    position: sticky;
+  background-color: rgb(0, 0, 0);
+  opacity: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  position: sticky;
 }
-
 
 .icon-menu {
   font-size: 32px;
   display: flex;
-  color: #BEE0FF;
+  color: #bee0ff;
   padding: 10px 1rem;
 }
 
@@ -64,9 +67,9 @@ header {
 }
 
 img {
-    height: 40px;
-    padding: 15px;
-    margin-left: 20px;
+  height: 4.5rem;
+  padding: 15px;
+  margin-left: 20px;
 }
 
 ul {
@@ -82,7 +85,6 @@ ul {
 .toggle_menu {
   display: block;
   margin: 15px 0;
-
 }
 .toggle-menu-container {
   display: flex;
@@ -94,7 +96,6 @@ ul {
   margin: 0;
 }
 
-
 a {
   text-decoration: none;
   color: #000000;
@@ -103,22 +104,28 @@ a {
 
 .menu_bar {
   display: none;
+
+
+  position: relative;
+
+  margin-top: 0.7rem;
 }
 .d-none {
   display: none;
 }
 
-@media screen and (min-width: 1200px) { 
-
-   .menu_bar{
+@media screen and (min-width: 1200px) {
+  .menu_bar {
     display: block;
-   }
-   .icon-menu {
-      display: none;
-    }
-   .toggle_menu_bar {
-      display: none;  
-}
-   .toggle-menu-container {
+  }
+  .icon-menu {
     display: none;
   }
+  .toggle_menu_bar {
+    display: none;
+  }
+  .toggle-menu-container {
+    display: none;
+  }
+}
+
