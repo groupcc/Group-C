@@ -9,7 +9,7 @@ app.use("/views", express.static(__dirname + "/views"));
 app.use("/static", express.static(__dirname + "/static"));
 
 app.get("/", function (request, response) {
-  response.render("mein6");
+  response.render("main6");
 });
 
 app.get("/china", function (request, response) {
