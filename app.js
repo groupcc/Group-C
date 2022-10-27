@@ -91,8 +91,29 @@ app.get("/mexico", function (request, response) {
 });
 
 app.get("/worldcontinents", function (request, response) {
-    response.render("worldcontinents");
+  response.render("worldcontinents");
+});
+
+  app.get("/mbti", function (request, response) {
+    response.render("mbti");
   });
+
+  app.get("/festival", function (request, response) {
+    response.render("festival");
+  });
+
+  app.get("/universal", function (request, response) {
+    response.render("universal");
+  });
+
+  app.get("/description", function (request, response) {
+    response.render("description");
+  });
+
+  app.get("/korea", function (request, response) {
+    response.render("korea");
+  });
+
 
 app.listen(PORT, function () {
   console.log(`Listening on port ${PORT}`);

@@ -24,6 +24,8 @@ let parkText = document.querySelector('.parkText');
 let youtube = document.querySelector('.youtube');
 let homepage = document.querySelector('.homepage');
 
+
+
 disneypark.addEventListener('click', function() {
   parkImage.setAttribute('src','../static/image/themepark/Disney.png');
   parkName.innerText = '디즈니 파크';
