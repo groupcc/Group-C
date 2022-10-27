@@ -23,12 +23,19 @@ node app.js
 ![메인페이지](https://user-images.githubusercontent.com/115196609/198200892-fe5ae3bc-1b63-4f5c-94e0-32a88b10bcd6.jpg)
  - 각 국가별 지정 아이콘으로 비행기 이미지 애니메이션 효과 적용
 
+
+
  ![메인페이지 버튼 생성](https://user-images.githubusercontent.com/115196609/198200891-86cc5564-2169-45c9-9f57-d9f61afa828c.jpg)
  - 대륙 이미지와 지정 아이콘 클릭 시 국가별 버튼 호출
  - 국가별 버튼 클릭 시, 각 국가 설명 페이지로 이동
 
+
+
  ![메인페이지 반응형](https://user-images.githubusercontent.com/115196609/198200884-f1a3808c-cb02-46a2-9bf9-6f60b17b87d2.jpg)
  - 미디어 쿼리 적용, 반응형 모드일 때, 국가별 버튼이 이미지 하단으로 이동됨.
+
+
+
 
 - [나라별 소개 페이지]
 ![나라별 소개](https://user-images.githubusercontent.com/115196609/198202290-8aa9c9b6-574a-46f8-9fc8-2800bf1e1b82.jpg)
@@ -36,10 +43,16 @@ node app.js
  - 여행국가의 추천 여행지를 2가지씩 제공한다. 각 여행지는 이미지 div로 클릭 시, 팝업 설명창이 노출되게 설계했다.
  - 설명 팝업창은 우측 상단의 x 표시를 클릭하면 사라진다.
 
+
+
+
  - [국내여행 페이지]
  ![국내여행 페이지](https://user-images.githubusercontent.com/115196609/198202295-c98e07d5-61b1-4fd5-aff2-40fa1564efb5.jpg)
   - 각 지역별 이미지를 div 설정하여 클릭 시 해당 정보 링크로 연결된다. 
   - 미디어쿼리 적용, 반응형 모드일 때, 국가별 버튼이 
+
+
+
 
 - [국가별 테마파크 페이지]
 ![테마파크 이미지](https://user-images.githubusercontent.com/115196609/198202299-63afdfdb-087f-41ba-a41c-d6b71d29afa6.jpg)
@@ -47,10 +60,16 @@ node app.js
   - 마우스 호버 효과 적용해서 드롭다운식으로 메뉴 노출, 메뉴바에 마우스가 위치하지 않아도 호버 효과가 유지되게 속성 적용.
   - 각 요소 클릭 시 파일 내부 정보 변경됨.
 
+
+
+
 - [국가별 축제 페이지]
 ![축제 페이지](https://user-images.githubusercontent.com/115196609/198202300-3e0946f5-6f4b-4ff0-9882-a09c6e3fb5e4.jpg)
   - 셀렉트 박스 클릭 시, 옵션값 노출
   - 물음표 박스 3개 노출, 배당되는 값이 없을 떄는 플립되며 사라지는 애니메이션 적용
+
+
+
 
 
 - [성격별 추천 페이지]
@@ -59,9 +78,14 @@ node app.js
   - 값 입력이 안되는 경우, 버튼 기능 안되고 주의 문구 도출
   - 질문 항목 선택이 끝나면 결과값으로 적용됨
 
+
+
+
 - [웹사이트 소개 페이지]
 ![웹 페이지 소개 페이지](https://user-images.githubusercontent.com/115196609/198202303-31de836f-ac9f-482f-be6a-81b1eb1ebe9d.jpg)
   - 각 페이지별 상세 설명 기재
+
+
 
 - [푸터]
 ![푸터](https://user-images.githubusercontent.com/115196609/198202304-b2b1d900-85db-4a18-9654-714983273d41.jpg)
