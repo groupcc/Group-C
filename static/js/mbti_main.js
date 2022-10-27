@@ -2,13 +2,11 @@ const header = document.getElementById('header');
 const qna = document.getElementById('qna');
 const u_name = document.querySelector('input[type=text]');
 const wrap = document.getElementById('wrap');
-const tabletMQL = window.matchMedia("all and (min-width: 768px)");
-const pcMQL = window.matchMedia("all and (min-width: 1024px)");
+const tabletMQL = window.matchMedia('all and (min-width: 768px)');
+const pcMQL = window.matchMedia('all and (min-width: 1024px)');
 const ENDPOINT = 10;
 const select = [];
 let qIdx = -1;
-
-
 
 const sortResult = (point) => {
   let num = 0;
@@ -36,7 +34,7 @@ const sortResult = (point) => {
     num = 10;
   }
   return num;
-}
+};
 
 const goResult = () => {
   if (pcMQL.matches) {
@@ -46,7 +44,7 @@ const goResult = () => {
       qna.style.transform = 'translateY(-1px)';
     }, 50);
     setTimeout(() => clearTimeout(interval), 500);
-    setTimeout(() => qna.style.display = 'none', 500);
+    setTimeout(() => (qna.style.display = 'none'), 500);
   }
 
   const result = document.getElementById('shareResult');
@@ -54,37 +52,31 @@ const goResult = () => {
   const pTitle = document.querySelector('.p');
   const res_point = document.querySelector('.point');
   const pin = document.querySelector('.pin');
-  const img_url =  grade + '.png';
+  const img_url = grade + '.png';
   const res_img = document.createElement('img');
   const location = document.querySelector('.result');
   const desc = document.querySelector('.res');
 
-
   setTimeout(() => {
     header.style.display = 'block';
     result.style.display = 'block';
-    header.style.animation =
-      'fade-in 0.3s forwards';
-    result.style.animation =
-      'going-up 0.5s, ' +
-      'fade-in 0.5s forwards';
+    header.style.animation = 'fade-in 0.3s forwards';
+    result.style.animation = 'going-up 0.5s, ' + 'fade-in 0.5s forwards';
   }, 600);
-
-}
+};
 
 const end = () => {
-  const result = document.getElementById('shareResult')
+  const result = document.getElementById('shareResult');
   console.log(result);
-  result.style.display = 'block'
+  result.style.display = 'block';
   qna.style.animation = '';
   const interval = setInterval(() => {
     qna.style.opacity -= 0.1;
     qna.style.transform = 'translateY(-1px)';
   }, 50);
   setTimeout(() => clearTimeout(interval), 500);
-  setTimeout(() => qna.style.display = 'none', 500);
-}
-
+  setTimeout(() => (qna.style.display = 'none'), 500);
+};
 
 const addAnswer = (answerTxt, idx) => {
   const answer = document.createElement('button');
@@ -106,11 +98,14 @@ const addAnswer = (answerTxt, idx) => {
     }, 800);
   });
 
-  setTimeout(() => answer.style.animation =
-    'going-down 0.25s forwards, fade-in 0.25s forwards', 50);
+  setTimeout(
+    () =>
+      (answer.style.animation =
+        'going-down 0.25s forwards, fade-in 0.25s forwards'),
+    50
+  );
   a.appendChild(answer);
-}
-
+};
 
 const goNext = () => {
   console.log(qnaList.length); // 8
@@ -125,7 +120,7 @@ const goNext = () => {
   const qNum = qnaList[qIdx];
   const q = document.querySelector('.q');
 
-  status.style.width = (ENDPOINT * (qIdx + 2)) + '%';
+  status.style.width = ENDPOINT * (qIdx + 2) + '%';
   q.innerHTML = qNum.q;
   qna.style.animation =
     'fade-in 0.3s ease-in-out 0.4s forwards, ' +
@@ -138,16 +133,19 @@ const goNext = () => {
     }
     qna.style.opacity = 1;
   }, 700);
-}
+};
 
 const begin = () => {
   const welcome = document.getElementById('welcome');
   header.style.animation =
-    'going-up 0.4s forwards, ' +
-    'fade-out 0.4s forwards';
-  setTimeout(() => welcome.style.animation =
-    'going-up 0.4s ease-in-out forwards, ' +
-    'fade-out 0.4s ease-in-out forwards', 500);
+    'going-up 0.4s forwards, ' + 'fade-out 0.4s forwards';
+  setTimeout(
+    () =>
+      (welcome.style.animation =
+        'going-up 0.4s ease-in-out forwards, ' +
+        'fade-out 0.4s ease-in-out forwards'),
+    500
+  );
   setTimeout(() => {
     header.style.display = 'none';
     welcome.style.display = 'none';
@@ -161,7 +159,7 @@ const begin = () => {
     }
     goNext();
   }, 1000);
-}
+};
 
 const load = () => {
   const msg = document.querySelector('.check-name');
@@ -189,10 +187,8 @@ const load = () => {
     } catch (err) {
       console.log(err);
       msg.innerHTML = err;
-
     }
   });
-
-}
+};
 
 window.onload = load();
