@@ -137,17 +137,6 @@ p {
 
 }
 
-/* .card1 .div4,
-.card2 .div8,
-.card3 .div10,
-.card4 .div12,
-.card5 .div16,
-.card6 .div20 {
-    margin-right: 0;
-} */
-
-
-
 .card2 .div5,
 .card2 .div6,
 .card2 .div7,
@@ -278,25 +267,7 @@ p {
 .p6 {
     animation-name: flights6;
 }
-/* 
-.div4{
-    padding-right: 0%;
-}
-.div8{
-    padding-right: 0%;
-}
-.div10{
-    padding-right: 0%;
-}
-.div12{
-    padding-right: 0%;
-}
-.div16{
-    padding-right: 0%;
-}
-.div20{
-    padding-right: 0%;
-} */
+
 
 @keyframes flights {
     from{

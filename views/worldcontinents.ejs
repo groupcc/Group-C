@@ -3,10 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>메인대륙 페이지</title>
+    <meta
+      name="description"
+      content="전세계 대륙 페이지에서 pin아이콘을 클릭하여 해당 대륙의 소개하고자 하는 관광지를 클릭하여 이동 할 수 있다 다른 대륙을 선택 하고 싶을 경우 
+      선택한 pin 아이콘 제외한 body를 클릭하면 모든 animation 완료 상황이 reset 되고 다른 대륙을 새롭게 선택 할 수 있다."
+    />
+
     <link rel="stylesheet" href="/static/css/worldcontinents.css" />
-    <!-- footer header 파일-->
 
     <link
       rel="canonical"
@@ -36,10 +44,11 @@
     />
 
     <script src="/static/js/PageChange.js"></script>
+    <link rel="shortcut icon" href="/static/image/airplane.ico" />
   </head>
   <body>
     <%- include('./navigation.ejs')%>
-   
+
     <div class="map">
       <img
         class="w1"

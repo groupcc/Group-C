@@ -1,14 +1,13 @@
 
-
-
-
-
-
-
-
-
-
 {
+  "name": "travler",
+  "version": "1.0.0",
+  "description":"이 프로젝트는 여행지를 고민하는 사람들을 위한 작업 입니다",
+  "main":"app.js",
+  "script":{
+    "test": "echo \"Error: no test specified\" && exit 1"
+},"author": "C팀",
+  "license": "ISC",
   "dependencies": {
     "bootstrap-icons": "^1.9.1",
     "ejs": "^3.1.8",

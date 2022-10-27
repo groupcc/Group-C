@@ -2,10 +2,10 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
-    />
+    <meta name="viewport" <<<<<<< HEAD content="width=device-width,
+    initial-scale=1, viewport-fit=cover" ======= content="width=device-width,
+    initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no,
+    viewport-fit=cover" >>>>>>> main />
 
     <meta name="author" content="Dain Kim" />
 
@@ -38,15 +38,18 @@
       src="https://kit.fontawesome.com/cbcad42a26.js"
       crossorigin="anonymous"
     ></script>
-    <title>재미로 알아보는 mbti 별 추천 여행지</title>
+    <title>성향별 여행지</title>
+    <meta
+      name="description"
+      content="간단한 퀴즈를 통해 사람 성향 별로 본인과 맞는 여행지를 추리 할 수 있는 페이지이다."
+    />
     <link rel="stylesheet" href="/static/css/mbti_reset.css" />
     <link rel="stylesheet" href="/static/css/mbti_animation.css" />
     <link rel="stylesheet" href="/static/css/mbti_main.css" />
     <link rel="stylesheet" href="/static/css/mbti_welcome.css" />
     <link rel="stylesheet" href="/static/css/mbti_qna.css" />
     <link rel="stylesheet" href="/static/css/mbti_result.css" />
-    <!-- 
-  <%- include('./navigation.ejs')%> -->
+    <link rel="shortcut icon" href="/static/image/airplane.ico" />
   </head>
 
   <body>
@@ -100,6 +103,7 @@
       </section>
     </div>
 
+    >>>>>>> main
     <script src="/static/js/mbti_data.js"></script>
     <script src="/static/js/mbti_main.js"></script>
   </body>

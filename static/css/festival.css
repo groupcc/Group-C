@@ -9,10 +9,6 @@ body {
   font-family: 'twayair';
 }
 
-/* .mainBody {
-  background-image: url('./image/blue.jpg');
-} */
-/* 문구, select 박스 */
 .selectContainer {
   text-align: center;
   margin-bottom: 5rem;
@@ -38,7 +34,6 @@ select {
   margin-top: 1rem;
 }
 
-/* 카드 */
 .questionContainer {
   display: flex;
   justify-content: center;
@@ -95,11 +90,6 @@ select {
   padding: 0 0.5rem;
   margin: 0;
 }
-
-/* svg {
-  margin-top: 10px;
-  filter: invert(77%) sepia(67%) saturate(425%) hue-rotate(72deg) brightness(98%) contrast(99%);
-} */
 
 .back {
   animation: rotateAni 1s ease 1;

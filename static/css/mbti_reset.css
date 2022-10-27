@@ -1,11 +1,5 @@
 @charset "utf-8";
 
-/* @import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
-* {
-  transition: color 0.3s;
-  transition: background-color 0.3s;
-  box-sizing: border-box;
-} */
 
 @font-face {
   font-family: 'twayair';
@@ -22,7 +16,7 @@ body, p, input {
   padding: 0;
   line-height: 1;
 }
-/* HTML5 display-role reset for older browsers */
+
 header, section { 
   display: block; 
 }

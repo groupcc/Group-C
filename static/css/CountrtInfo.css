@@ -266,15 +266,6 @@
   display: block;
 }
 
-/* .first_content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-  position: absolute;
-  top: 200px;
-  left: 120px;
-} */
-
 .danger_description {
   display: flex;
   flex-direction: column;
@@ -283,12 +274,7 @@
 .country {
   display: flex;
   flex-direction: column;
-  /* background-image: url("img/Flag.jpg"); */
 }
-
-/* .card {
-  width: 600px;
-} */
 
 .card_1 {
   width: 40%;
@@ -311,7 +297,6 @@
 }
 
 .hidden {
-  /* visibility: hidden; */
   display: none;
 }
 

@@ -16,7 +16,6 @@ body {
   margin-top: 2rem;
   height: 6rem;
   opacity: 80%;
-  /* background-color: white; */
   z-index: 2;
 }
 
@@ -93,7 +92,6 @@ ul {
 
 .countryText {
   width: 15vw;
-  /* background-color: aqua; */
 }
 
 .usa,
