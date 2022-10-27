@@ -60,7 +60,7 @@
   100% {width: 100%;}
 }
 
-/* animation class */
+
 .fade-out-5-4 {
   animation: fade-out 0.5s 0.4s;
 }

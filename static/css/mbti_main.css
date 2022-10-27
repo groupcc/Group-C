@@ -1,4 +1,4 @@
-/* style */
+
 @font-face {
   font-family: 'twayair';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
@@ -6,18 +6,16 @@
   font-style: normal;
 }
 body {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#94c5ef+0,3690f0+51,256fdd+100 */
-background: rgb(148,197,239); /* Old browsers */
-background: -moz-linear-gradient(left,  rgb(148,197,239) 0%, rgb(54,144,240) 51%, rgb(209, 227, 255) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgb(148,197,239) 0%,rgb(54,144,240) 51%,rgb(210, 228, 255) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgb(148,197,239) 0%,rgb(54,144,240) 51%,rgb(184, 169, 248) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94c5ef', endColorstr='#256fdd',GradientType=0 ); /* IE6-9 */
+background: rgb(148,197,239); 
+background: -moz-linear-gradient(left,  rgb(148,197,239) 0%, rgb(54,144,240) 51%, rgb(209, 227, 255) 100%); 
+background: -webkit-linear-gradient(left,  rgb(148,197,239) 0%,rgb(54,144,240) 51%,rgb(210, 228, 255) 100%); 
+background: linear-gradient(to right,  rgb(148,197,239) 0%,rgb(54,144,240) 51%,rgb(184, 169, 248) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94c5ef', endColorstr='#256fdd',GradientType=0 ); 
 
 }
 #wrap {
   position: relative;
   overflow: hidden;
-  /* margin-top: 50px; */
   height: 100%;
   width: 100%;
   max-width: 100%;
@@ -33,7 +31,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94c5ef', end
 }
 
 @media all and (min-width: 768px) {
-  /* qna에서 margin-top을 없애야 함 */
   #wrap {
     margin-top: 10px;
   }
@@ -46,7 +43,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94c5ef', end
 }
 
 @media all and (min-width: 1024px) {
-  /* qna에서 margin-top을 없애야 함 */
   #wrap {
     margin-top: 15px;
   }
@@ -66,7 +62,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94c5ef', end
   }
 }
 
-/* animation */
+
 @-webkit-keyframes start-flicker {
   0% {background-color: rgba(0, 135, 245, 0.9);}
   50% {background-color: rgba(0, 135, 245, 0.6);}
@@ -128,7 +124,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94c5ef', end
   100% {width: 100%;}
 }
 
-/* animation class */
 .fade-out-5-4 {
   animation: fade-out 0.5s 0.4s;
 }

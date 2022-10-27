@@ -92,5 +92,4 @@ function korea() {
 
 function worldcontinents() {
   window.open("/worldcontinents", (target = "_self"), "fullscreen");
-  // location.href = '/worldcontinents';
 }
