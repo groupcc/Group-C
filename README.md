@@ -5,8 +5,8 @@
 - 의의 : 각 국가별로 축제나 성향 등의 다양한 관점에서 여행지를 분류하여, 자료를 시각적으로 제공한다.
 
 ---
-# 2. 설치 방법
-
+# 2. 접속 방법
+http://118.67.132.143:9000/
 git clone https://github.com/groupcc/Group-C.git
 npm install express
 npm install ejs
